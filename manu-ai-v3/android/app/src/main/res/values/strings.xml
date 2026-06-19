@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MANU AI</string>
+    <string name="accessibility_service_description">MANU AI Accessibility Service for cross-app automation</string>
+</resources>
