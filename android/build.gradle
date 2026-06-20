@@ -24,6 +24,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url("$rootDir/../node_modules/react-native/android") }
+        maven { url("$rootDir/../node_modules/jsc-android/dist") }
     }
     configurations.all {
         resolutionStrategy {
